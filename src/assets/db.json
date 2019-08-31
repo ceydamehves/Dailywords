@@ -1,6 +1,6 @@
 {
     "months": {
-      "1": {
+      "0": {
         "1": {
           "tr": "Yalnız olmayı öğren. Herkes sonsuza denk kalmayacak.",
           "en": "Learn to be alone not everyone will stay forever."
@@ -127,7 +127,7 @@
         }
         
       },
-      "2": {
+      "1": {
         "1": {
           "tr": "Hayat devam etmeli.",
           "en": "Life must go on. "
@@ -252,7 +252,7 @@
         
       },
       
-      "3": {
+      "2": {
         "1": {
           "tr": "Yaşam para gibidir: Dilediğiniz gibi harcayabilirsiniz, ama yalnızca bir kez.",
           "en": " Life is like a coin. You can spend it any way you wish, but you only spend it once."
@@ -379,7 +379,7 @@
         }
         
       },
-      "4": {
+      "3": {
         "1": {
           "tr": "Tanrı bazen sizi korumak için hayatınızdan bazı insanları çıkarır. Peşlerinden koşmayın.",
           "en": "God sometimes removes people from your life to protect you… Don’t run after them."
@@ -493,7 +493,7 @@
           "en": "Everyone thinks of changing the world, but no one thinks of changing himself."
         }
       },
-      "5": {
+      "4": {
         "1": {
           "tr": "Farklı olmaya çalışma. Sadece iyi ol. İyi olmak yeterince farklıdır.",
           "en": "Don’t try to be different. Just be good. To be good is different enough."
@@ -620,7 +620,7 @@
         }
         
       },
-      "6": {
+      "5": {
         "1": {
           "tr": "Hayat devam etmeli.",
           "en": "Life must go on. "
@@ -742,7 +742,7 @@
           "en": "Everything is funny, as long as it’s happening to somebody else."
         }
       },
-      "7": {
+      "6": {
         "1": {
           "tr": "Yaşam para gibidir: Dilediğiniz gibi harcayabilirsiniz, ama yalnızca bir kez.",
           "en": " Life is like a coin. You can spend it any way you wish, but you only spend it once."
@@ -869,7 +869,7 @@
         }
         
       },
-      "8": {
+      "7": {
         "1": {
           "tr": "Hayat devam etmeli.",
           "en": "Life must go on. "
@@ -992,7 +992,7 @@
           "tr": "Sisin içinde yürümeyi severim, çünkü kimse sigara içtiğimi farketmiyor."
         }
       },
-      "9": {
+      "8": {
         "1": {
           "tr": "Farklı olmaya çalışma. Sadece iyi ol. İyi olmak yeterince farklıdır.",
           "en": "Don’t try to be different. Just be good. To be good is different enough."
@@ -1119,7 +1119,7 @@
         }
         
       },
-      "10": {
+      "9": {
         "1": {
           "tr": "Tanrı bazen sizi korumak için hayatınızdan bazı insanları çıkarır. Peşlerinden koşmayın.",
           "en": "God sometimes removes people from your life to protect you… Don’t run after them."
@@ -1241,7 +1241,7 @@
           "en": "Great minds discuss ideas, average minds discuss events, small minds discuss people."
         }
       },
-      "11": {
+      "10": {
         "1": {
           "tr": "Yaşam para gibidir: Dilediğiniz gibi harcayabilirsiniz, ama yalnızca bir kez.",
           "en": " Life is like a coin. You can spend it any way you wish, but you only spend it once."
@@ -1368,7 +1368,7 @@
         }
         
       },
-      "12": {
+      "11": {
         "1": {
           "tr": "Bu gece için hava tahmini: karanlık.",
           "en": "Weather forecast for tonight: dark."

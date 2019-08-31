@@ -27,7 +27,7 @@ class WordPageEN extends React.Component{
                 </ImageBackground>
                 <View style={styles.pageContainer}>
                 <Text style={styles.PageText}  adjustsFontSizeToFit
-              numberOfLines={10} >{this.state.en}</Text>
+              numberOfLines={12} >{this.state.en}</Text>
             </View>
                 <View style={styles.flagContainer}>
                 <Image

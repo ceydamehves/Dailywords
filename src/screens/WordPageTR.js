@@ -27,7 +27,7 @@ class WordPageTR extends React.Component{
                 </ImageBackground>
                 <View style={styles.pageContainer}>
                 <Text style={styles.PageText}  adjustsFontSizeToFit
-              numberOfLines={10}>{this.state.tr}</Text>
+              numberOfLines={12} >{this.state.tr}</Text>
             </View>
                 <View style={styles.flagContainer}>
                 <Image

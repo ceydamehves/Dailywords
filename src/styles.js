@@ -29,10 +29,8 @@ export const headerStyles = StyleSheet.create({
       height: Dimensions.get('window').height * 0.97,
       borderRadius: 30,
       borderColor: '#8d8484',
-      
       borderWidth: 5,   
       alignItems: 'center',
-
       justifyContent: 'center',
     },
     questionText: {
@@ -46,7 +44,6 @@ export const headerStyles = StyleSheet.create({
       fontFamily: 'verdana',
       borderRadius: 30,
       borderColor: '#8d8484',
-      
       borderWidth: 2,  
     },
     buttonContainer:{
@@ -59,7 +56,6 @@ export const headerStyles = StyleSheet.create({
         height: 140,
         borderRadius: 30,
         borderColor: '#8d8484',
-        
         borderWidth: 5,
         backgroundColor: 'rgba(129, 207, 224,0.6)',
         
@@ -71,7 +67,6 @@ export const headerStyles = StyleSheet.create({
         height: 140,
         borderRadius: 30,
         borderColor: '#8d8484',
-        
         borderWidth: 5,
         backgroundColor: 'rgba(129, 207, 224,0.6)',
         
@@ -84,7 +79,6 @@ export const headerStyles = StyleSheet.create({
         height: 55,
         borderRadius: 10,
         borderColor: '#707070',
-        
         borderWidth: 4,
       },
       UK: {
@@ -95,11 +89,10 @@ export const headerStyles = StyleSheet.create({
         height: 55,
         borderRadius: 10,
         borderColor: '#707070',
-        
         borderWidth: 4,
       },
       PageText: {
-        fontSize: 50,     
+        fontSize: 46,     
         padding: 20,
         borderRadius: 45,
         justifyContent: 'center',
@@ -115,24 +108,20 @@ export const headerStyles = StyleSheet.create({
         position: 'absolute',
         top: 502,
         left: Dimensions.get('window').width * 0.16,
-        
         alignItems: 'center',
         width: 270,
         height: 90,
         borderRadius: 30,
         borderColor: '#8d8484',
-        
         borderWidth: 5,  
         backgroundColor: 'rgba(129, 207, 224,0.6)',
         borderRadius: 20,
-       
         flexDirection: 'row',
         justifyContent: 'space-around',
             
           
     },
       Button: {
-        
         borderRadius: 20,
         padding: 30,
         borderRadius: 22,
@@ -178,25 +167,22 @@ export const headerStyles = StyleSheet.create({
         borderWidth: 3,
   },
   pageContainer: {
-    
     backgroundColor: 'rgba(171, 184, 206,0.2)',
     width: Dimensions.get('window').width * 0.98,
-    height: Dimensions.get('window').width * 1.4,
+    height: Dimensions.get('window').width * 1.5,
     alignItems: 'center',
     justifyContent: 'center',
     position: 'absolute',
-    top: 145,
+    top: 140,
     left: 5,
-  
     borderRadius: 30,
     borderColor: '#50c4c7',
-    
     borderWidth: 7,
   },
   Ads: {
     justifyContent:'flex-end',
     width: Dimensions.get('window').width * 1.5,
-        height: Dimensions.get('window').height * 0.99
+    height: Dimensions.get('window').height * 0.99
 
   }
     
