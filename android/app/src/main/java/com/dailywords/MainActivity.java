@@ -1,4 +1,4 @@
-package com.dailywords;
+package com.leacof.dailywords;
 
 import com.facebook.react.ReactActivity;
 

@@ -1,4 +1,4 @@
-package com.dailywords;
+package com.leacof.dailywords;
 
 import android.app.Application;
 import android.util.Log;
