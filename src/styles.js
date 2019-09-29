@@ -24,16 +24,16 @@ export const headerStyles = StyleSheet.create({
     },
     questionContainer: {
       backgroundColor: 'rgba(171, 184, 206,0.5)',
-      borderRadius: 90,
+      borderRadius: 60,
       width: Dimensions.get('window').width * 1,
       height: Dimensions.get('window').height * 0.97,
-      borderRadius: 30,
       borderColor: '#8d8484',
       borderWidth: 5,   
       alignItems: 'center',
       justifyContent: 'center',
     },
     questionText: {
+      marginTop: 15,
       fontSize: 18,
       fontWeight: 'bold',
       color: '#0489B1',  
@@ -42,9 +42,9 @@ export const headerStyles = StyleSheet.create({
       borderRadius: 35,
       alignSelf: 'center',
       fontFamily: 'verdana',
-      borderRadius: 30,
+      borderRadius: 10,
       borderColor: '#8d8484',
-      borderWidth: 2,  
+      borderWidth: 1,  
     },
     buttonContainer:{
         alignItems:'center',
@@ -92,7 +92,7 @@ export const headerStyles = StyleSheet.create({
         borderWidth: 4,
       },
       PageText: {
-        fontSize: 46,     
+        fontSize: 42,     
         padding: 20,
         borderRadius: 45,
         justifyContent: 'center',
@@ -129,21 +129,24 @@ export const headerStyles = StyleSheet.create({
         
       },
       imgButton: {
-        width: Dimensions.get('window').width * 0.19,
+        width: Dimensions.get('window').width * 0.18,
         height: Dimensions.get('window').width * 0.18
       },
       mailButton: {
+        marginTop: 5,
         justifyContent: 'center',
-        width: Dimensions.get('window').width * 0.19,
+        width: Dimensions.get('window').width * 0.18,
         height: Dimensions.get('window').width * 0.18
       },
       mailCont: {
+        justifyContent: 'center',
         alignItems:'center',
+        
         
       },
       flagContainer: {
         position: 'absolute',
-        top: 92,
+        top: 50,
         left: 90,
         width: 219,
         height: 115,
@@ -167,7 +170,7 @@ export const headerStyles = StyleSheet.create({
         borderWidth: 3,
   },
   pageContainer: {
-    backgroundColor: 'rgba(171, 184, 206,0.2)',
+    backgroundColor: 'rgba(171, 184, 206,0.5)',
     width: Dimensions.get('window').width * 0.98,
     height: Dimensions.get('window').width * 1.5,
     alignItems: 'center',
@@ -182,11 +185,35 @@ export const headerStyles = StyleSheet.create({
   Ads: {
     justifyContent:'flex-end',
     width: Dimensions.get('window').width * 1.5,
-    height: Dimensions.get('window').height * 0.99
+    height: Dimensions.get('window').height * 0.995
 
-  }
-    
-
-
-
+  },
+  backButton: {
+    justifyContent:'flex-start',
+    position: 'absolute',
+    top: 7,
+    left: 7,
+    width: 50,
+    height: 50,
+    borderRadius: 10,
+    borderColor: '#50c4c7',
+    borderWidth: 3,
+    backgroundColor: 'rgba(171, 184, 206,0.5)',
+  },
+  backButtonimg: {
+    justifyContent:'flex-start',
+    position: 'absolute',
+    top: 7,
+    width: 40,
+    height: 30,
+  },
+  backButtonQuestion: {
+    justifyContent:'flex-start',
+    position: 'absolute',
+    top: 7,
+    left:7,
+    width: 50,
+    height: 50,    
+  },
+  
 });

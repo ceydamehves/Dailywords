@@ -5,7 +5,7 @@ import WordPageEN from "../screens/WordPageEN.js";
 import Question from "../screens/Question.js";
 
 const AppNavigator = createStackNavigator({
-  Home: {
+  HomeScreen: {
     screen: HomeScreen
   }, 
   WordPageTR:{

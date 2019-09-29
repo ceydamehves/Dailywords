@@ -1,5 +1,6 @@
 import React from 'react';
-import {View, Text, TouchableOpacity, Image,Dimensions, ImageBackground, Platform, Linking} from 'react-native';
+import {View, Text,StatusBar, TouchableOpacity, Image,Dimensions, ImageBackground} from 'react-native';
+import Button from 'react-native';
 import {headerStyles as styles} from 'C:/DailyWords/src/styles.js';
 const database = require('../assets/db.json');
 import { 
@@ -18,20 +19,40 @@ class WordPageEN extends React.Component{
     render (){
        
         return(
-            
+                  
             <View style={styles.backContainer}>
+                
                 <ImageBackground
                 style={styles.backContainer}
-                source={require ('C:/DailyWords/src/assets/back.jpg')} >
+                source={require ('C:/DailyWords/src/assets/images/back.jpg')} >
 
                 </ImageBackground>
-                <View style={styles.pageContainer}>
+                <View>
+               <TouchableOpacity
+                    style={styles.backButton}
+                    onPress={() => {
+                        this.props.navigation.navigate ('HomeScreen')           
+                    }}>
+                        <Image
+                        source={require ('C:/DailyWords/src/assets/images/ceyda_back.png')}
+                        style={styles.backButtonimg}
+                        />
+                        
+                    </TouchableOpacity>
+                </View>
+                               
+                <StatusBar backgroundColor="#a3e4d7" barStyle="light-content" />    
+                
+                <View style={styles.pageContainer}>    
+                                
                 <Text style={styles.PageText}  adjustsFontSizeToFit
-              numberOfLines={12} >{this.state.en}</Text>
-            </View>
+                    numberOfLines={12} >{this.state.en}
+                </Text>
+                </View>
+
                 <View style={styles.flagContainer}>
                 <Image
-                        source={require ('C:/DailyWords/src/assets/uk.png')}
+                        source={require ('C:/DailyWords/src/assets/images/uk.png')}
                         style={styles.flag}
                         />
                 </View>
@@ -40,7 +61,7 @@ class WordPageEN extends React.Component{
                     adSize="smartBanner"
                     adUnitID="ca-app-pub-8687587439443765/7853214370"
                     testDevices={["EMULATOR"]}
-                    onAdFailedToLoad={error => console.error(error)}
+                    onAdFailedToLoad={error => console.log(error)}
                     />
                    </View>
                     

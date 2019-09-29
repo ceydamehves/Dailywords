@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, TouchableOpacity, Image,Dimensions, ImageBackground, Platform, Linking} from 'react-native';
+import {View, Text,StatusBar, TouchableOpacity, Image,Dimensions, ImageBackground, Platform, Linking} from 'react-native';
 import {headerStyles as styles} from 'C:/DailyWords/src/styles.js';
 import { 
     AdMobBanner, 
@@ -11,10 +11,10 @@ class HomeScreen extends React.Component{
        
         return(
            <View style={styles.backContainer}>
-             
+             <StatusBar backgroundColor="#a3e4d7" barStyle="light-content" />
                <ImageBackground
                 style={styles.backContainer}
-                source={require ('C:/DailyWords/src/assets/back.jpg')} >
+                source={require ('C:/DailyWords/src/assets/images/back.jpg')} >
 
                 </ImageBackground>
                <View style={styles.buttonContainer}>
@@ -27,7 +27,7 @@ class HomeScreen extends React.Component{
                         
                     </TouchableOpacity>
                     <Image
-                        source={require ('C:/DailyWords/src/assets/tr.png')}
+                        source={require ('C:/DailyWords/src/assets/images/tr.png')}
                         style={styles.TR}
                         />
                     
@@ -39,7 +39,7 @@ class HomeScreen extends React.Component{
                         <Text style={styles.text}>English</Text>
                     </TouchableOpacity>
                     <Image
-                        source={require ('C:/DailyWords/src/assets/uk.png')}
+                        source={require ('C:/DailyWords/src/assets/images/uk.png')}
                         style={styles.UK}
                         />
                 </View>
@@ -50,7 +50,7 @@ class HomeScreen extends React.Component{
                     onPress={() => Linking.openURL('https://www.instagram.com/leacofapp')
                     .catch(err => console.error('An error occurred', err))}>
                         <Image
-                        source={require ('C:/DailyWords/src/assets/instagram.png')}
+                        source={require ('C:/DailyWords/src/assets/images/instagram.png')}
                         style={styles.imgButton}
                         />
                     </TouchableOpacity>
@@ -61,7 +61,7 @@ class HomeScreen extends React.Component{
                         this.props.navigation.navigate ('Question')              
                     }}>
                         <Image
-                        source={require ('C:/DailyWords/src/assets/question.png')}
+                        source={require ('C:/DailyWords/src/assets/images/question.png')}
                         style={styles.imgButton}
                         />
                     </TouchableOpacity>
@@ -73,17 +73,12 @@ class HomeScreen extends React.Component{
                     adSize="smartBanner"
                     adUnitID="ca-app-pub-8687587439443765/7853214370"
                     testDevices={["EMULATOR"]}
-                    onAdFailedToLoad={error => console.error(error)}
+                    onAdFailedToLoad={error => console.log(error)}
                     />
                    </View>
                     
-                
-                   
-           </View>
+            </View>
            
-           
-
-          
         );
     }
 }
